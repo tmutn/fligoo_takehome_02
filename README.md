@@ -8,7 +8,7 @@ How to use:
   ![image](https://github.com/user-attachments/assets/8575eac0-76df-4a8d-911c-0a9ed3f92d01)
   - Make sure to unpause all the DAGs before starting the process
   ![image](https://github.com/user-attachments/assets/70c9cf40-b711-4dae-a42e-ae83e774f234)
-  - Hit play for the 1_extract DAG in the Actions section, the extraction process will then commence which will then trigger the 2_transform DAG, and last the 3_load DAG
+  - Hit play for the 1_extract DAG in the Actions section on the right side of the screen, the extraction process will then commence which will then trigger the 2_transform DAG, and last the 3_load DAG
   - When all DAGs finish running, head to Jupyter through http://localhost:8888/
   - Insert "token" in the upper field to enter
   - You should see the work folder in the left side of the screen, open the folder, and then the default notebook
